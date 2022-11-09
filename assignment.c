@@ -18,7 +18,6 @@ int main()
     	char stuID[100];
     	char roomNUM[100];
     	char name[100];
-    	char s[200];
     	signal(SIGINT, sighandler);
 
 	if (pipe(pipefd1) == -1) 
