@@ -6,8 +6,6 @@
 #include <unistd.h>
 #include <errno.h>
 #include <signal.h>
-#define PIN_LENGTH 4
-#define PIN_WAIT_INTERVAL 2
 void sighandler(int);
 int main()
 {
