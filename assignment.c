@@ -44,13 +44,13 @@ int main()
 		close(pipefd3[0]);
 		
 		printf("Enter Your Student ID: \n");
-        	scanf("%s", stuID); //get input from keyboard
+        	scanf("%s", stuID); 
         	printf("\n");
         	printf("Enter Room Number: \n");
         	scanf("%s", roomNUM);
         	printf("\n");
         	printf("Enter Name: \n");
-        	scanf("%s", name); //get input from keyboard
+        	scanf("%s", name); 
         	printf("\n");
         
         	write(pipefd1[1], stuID, 100);
